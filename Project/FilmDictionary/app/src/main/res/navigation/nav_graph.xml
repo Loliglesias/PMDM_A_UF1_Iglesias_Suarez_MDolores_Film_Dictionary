@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/buscadorFragment">
+
+    <fragment
+        android:id="@+id/buscadorFragment"
+        android:name="com.example.filmdictionary.BuscadorFragment"
+        android:label="fragment_buscador"
+        tools:layout="@layout/fragment_buscador" >
+        <action
+            android:id="@+id/action_buscadorFragment_to_resultadoFragment"
+            app:destination="@id/resultadoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultadoFragment"
+        android:name="com.example.filmdictionary.ResultadoFragment"
+        android:label="ResultadoFragment" >
+        <action
+            android:id="@+id/action_resultadoFragment_to_buscadorFragment"
+            app:destination="@id/buscadorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ultimasBusquedasFragment"
+        android:name="com.example.filmdictionary.UltimasBusquedasFragment"
+        android:label="UltimasBusquedasFragment" >
+        <action
+            android:id="@+id/action_ultimasBusquedasFragment_to_resultadoFragment"
+            app:destination="@id/resultadoFragment" >
+            <argument
+                android:name="termino"
+                app:argType="string" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/xogoFragment"
+        android:name="com.example.filmdictionary.XogoFragment"
+        android:label="XogoFragment" />
+</navigation>

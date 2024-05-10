@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Film Dictionary</string>
+    <string name="welcome_text">Welcome to the Film Dictionary!</string>
+    <string name="last">Recent searches</string>
+    <string name="menufinder">Search</string>
+    <string name="menuGame">Game</string>
+    <string name="menuLast">Recent</string>
+    <string name="concepto">concept</string>
+    <string name="definicion">definition</string>
+    <string name="search">Search</string>
+    <string name="hint">Write a concept</string>
+    <string name="error">Write a concept</string>
+    <string name="search2">Search for other term</string>
+    <string name="game">Game</string>
+    <string name="tryGame">Try</string>
+    <string name="DescGame">Relate these 10 definitions to its terms</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

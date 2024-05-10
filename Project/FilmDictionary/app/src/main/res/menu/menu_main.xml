@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/inicio_buscador"
+        android:icon="@android:drawable/ic_search_category_default"
+        android:title="@string/menufinder"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/historial"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:title="@string/menuLast"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/xogo"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:title="@string/menuGame"
+        app:showAsAction="always" />
+
+</menu>

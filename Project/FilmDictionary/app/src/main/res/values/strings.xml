@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Film Dictionary</string>
+    <string name="welcome_text">Benvido ao buscador cinematográfico!</string>
+    <string name="last">Últimas búsquedas</string>
+    <string name="menufinder">Buscador</string>
+    <string name="menuGame">Xogo</string>
+    <string name="menuLast">Historial</string>
+    <string name="concepto">concepto</string>
+    <string name="definicion">definicion</string>
+    <string name="search">Buscar</string>
+    <string name="hint">Introduce un concepto</string>
+    <string name="error">Introduce un concepto</string>
+    <string name="search2">Buscar outro concepto</string>
+    <string name="game">Xogo</string>
+    <string name="tryGame">Probar</string>
+    <string name="DescGame">Relaciona estos 10 conceptos coas súas definicións</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
